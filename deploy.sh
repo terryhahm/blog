@@ -3,10 +3,10 @@
 echo -e "\033[0;32mDeploying rendered website updates to GitHub...\033[0m"
 
 # Build and send the rendered project to directory terryhahm.github.io
-hugo -d ../terryhahm/github.io
+hugo -d ../terryhahm.github.io
 
 # Go to the folder
-cd ../terryhahm/github.io
+cd ../terryhahm.github.io
 
 # Add, commit and push 
 git add .
